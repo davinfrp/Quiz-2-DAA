@@ -26,3 +26,13 @@ Here are the key features of our application.
 * **Category-Based Legend**: A legend helps users identify item categories and sections, such as "Beverages," "Toiletries," or "Snacks."
 * **Checklist Panel**: As users progress, a dynamic checklist updates the items already visited and provides clarity on remaining goals.
 
+## Screenshots
+
+<p align="center">
+  <img src="screenshots/1.png" alt="Intro" width="500"/>
+  <img src="screenshots/2.png" alt="Home" width="500"/>
+  <img src="screenshots/3.png" alt="LoadedHome" width="500"/>
+  <img src="screenshots/4.png" alt="RouteStart" width="500"/>
+  <img src="screenshots/5.png" alt="MiddleRoute" width="500"/>
+  <img src="screenshots/6.png" alt="EndRoute" width="500"/>
+</p>
