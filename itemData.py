@@ -117,3 +117,74 @@ route = {
     'L1'         : ['K1'],
     'L11'        : ['K11']
 }
+
+#mendefinisikan node yang dijadikan rak pada denah.
+rack = [
+    'A0', 'B0', 'C0', 'D0', 'E0', 'F0', 'G0', 'H0', 'I0', 'J0',
+    'H8', 'I8', 'J8', 'H9', 'I9', 'J9', 'H10', 'I10', 'J10',
+    'B2', 'C2', 'D2', 'E2',
+    'B4', 'C4', 'D4', 'E4',
+    'B6', 'C6', 'D6', 'E6',
+    'G2', 'H2', 'I2', 'J2',
+    'G4', 'H4', 'I4', 'J4',
+    'G6', 'H6', 'I6', 'J6',
+    'B8', 'C8',
+    'B10', 'C10',
+    'E8', 'F8',
+    'E10', 'F10'
+]
+
+#mendefinisikan node yang berada pada perempatan dalam denah
+empat = [
+    'F3', 'F5', 'D9'
+]
+#mendefinisikan node yang berada pada pertigaan berbentuk T terbalik
+tiga_down = [
+    'A3', 'A5', 'A7', 'A9'
+]
+#mendefinisikan node yang berada pada pertigaan berbentuk T
+tiga_up = [
+    'K3', 'K5', 'K7' , 'G9'
+]
+#mendefinisikan node yang berada pada pertigaan berbentuk T menghadap ke kanan
+tiga_right = [
+    'F1', 'K1', 'D7', 'G7'
+]
+#mendefinisikan node yang berada pada pertigaan berbentuk T menghadap ke kiri
+tiga_left = [
+    'F7', 'D11', 'G11', 'K11'
+]
+#mendefinikan node yang berada pada tikungan ke kanan
+right_corner = [
+    'A11'
+]
+#mendefinikan node yang berada pada tikungan ke kiri
+left_corner = [
+    'A1'
+]
+#mendefinikan node yang berada pada jalan yang lurus(horizontal)
+horizontal = [
+    'A2', 'F2', 'K2',
+    'A4', 'F4', 'K4',
+    'A6', 'F6', 'K6',
+    'A8', 'D8', 'G8', 'K8', 'K9',
+    'A10', 'D10', 'G10', 'K10'
+]
+#mendefinikan node yang berada pada jalan yang lurus(vertikal)
+vertical = [
+    'B1', 'C1', 'D1', 'E1', 'G1', 'H1', 'I1', 'J1',
+    'B3', 'C3', 'D3', 'E3', 'G3', 'H3', 'I3', 'J3',
+    'B5', 'C5', 'D5', 'E5', 'G5', 'H5', 'I5', 'J5',
+    'B7', 'C7', 'E7', 'H7', 'I7', 'J7',
+    'B9', 'C9', 'E9', 'F9',
+    'B11', 'C11', 'E11', 'F11', 'H11', 'I11', 'J11',
+    'L11'
+]
+
+#mendefinikan node yang kosong/tidak ada isinya
+blanks = [
+    'K0', 'L0', 'L3', 'L4', 'L5', 'L6', 'L7', 'L8', 'L9', 'L10'
+]
+
+#menginformasikan program berada pada step ke berapa
+numStep = 0
